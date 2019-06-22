@@ -243,7 +243,7 @@ function nextPage(num) {
                 myPageNum = num;
 
             } else if (thisgame[num - 1][2] == "video") {
-                var vedo = '<iframe class="video imageOnePage" height="600px" width="100%" id="' + num + '" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+                var vedo = '<iframe class="video imageOnePage" height="500px" width="100%" id="' + num + '" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
                 //vedo.appendTo($('#imagepage'));
                 $('#imagepage').html(vedo);
                 var linkVideo = thisgame[num - 1][3].split("watch?v=");
